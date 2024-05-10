@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all",
+    ":semanticCommitsDisabled",
+    "docker:pinDigests"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "update _IMAGE versions in gitlab templates",
+      "fileMatch": ["^(.*\\.)?gitlab-ci.*\\.yml$"],
+      "matchStrings": ["IMAGE: (?<depName>[^\\$]*?):(?<currentValue>.*?)(?:@(?<currentDigest>sha256:[a-f0-9]+))?(?:\\s|$)"],
+      "datasourceTemplate": "docker"
+    },
+  ],
+}
