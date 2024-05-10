@@ -14,10 +14,10 @@
       # supported releases
       - DISTRIBUTION_NAME: opensuse
         DISTRIBUTION_VERSION: "15.4"
-        DISTRIBUTION_BASE_IMAGE: opensuse/leap:15.4
+        DISTRIBUTION_BASE_IMAGE: opensuse/leap:15.6
       - DISTRIBUTION_NAME: opensuse
         DISTRIBUTION_VERSION: "15.5"
-        DISTRIBUTION_BASE_IMAGE: opensuse/leap:15.5
+        DISTRIBUTION_BASE_IMAGE: opensuse/leap:15.6
 
 .docker-windows-base-matrix:
   parallel:
