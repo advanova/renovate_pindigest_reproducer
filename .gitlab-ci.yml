@@ -4,3 +4,6 @@
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "1809"
         DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809
+      - DISTRIBUTION_NAME: windows
+        DISTRIBUTION_VERSION: "2004"
+        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2004
