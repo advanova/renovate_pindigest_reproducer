@@ -16,5 +16,13 @@
       "autoReplaceStringTemplate": "IMAGE: {{{depName}}}:{{{newValue}}}{{#if isPinDigest}}@{{{newDigest}}}{{/if}}\n",
       "datasourceTemplate": "docker"
     },
+  "packageRules": [
+    {
+      "description": "Do not pin ubuntu packages",
+      "matchPackagePatterns": [
+        ".*ubuntu.*"
+      ],
+      "pinDigests": false
+    }
   ],
 }
