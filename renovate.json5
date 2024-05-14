@@ -13,7 +13,7 @@
       "description": "update _IMAGE versions in gitlab templates",
       "fileMatch": ["^(.*\\.)?gitlab-ci.*\\.yml$"],
       "matchStrings": ["IMAGE: (?<depName>[^\\$]*?):(?<currentValue>.*?)(?:@(?<currentDigest>sha256:[a-f0-9]+))?(?:\\s|$)"],
-      "autoReplaceStringTemplate": "IMAGE: {{{depName}}}:{{{newValue}}}@{{{newDigest}}}\n",
+      "autoReplaceStringTemplate": "IMAGE: {{{depName}}}:{{{newValue}}}{{#if isPinDigest}}@{{{newDigest}}}{{/if}}\n",
       "datasourceTemplate": "docker"
     },
   ],
