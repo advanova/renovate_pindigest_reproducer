@@ -3,13 +3,13 @@
     matrix:
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "1809"
-        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809@sha256:74eaea56489463506944b510365cc4d6723d6c5e4baab7906a1f635a4ceae729
+        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2009@sha256:c9b2234a2284ac6bad70bf9a3e137c4b413624b18c6f3a6ef8ceb4aa547abe99
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "1809"
-        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809
+        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2009
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "2004"
-        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2004
+        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2009
       - DISTRIBUTION_NAME: ubuntu
         DISTRIBUTION_VERSION: "latest"
         DISTRIBUTION_BASE_IMAGE: ubuntu:latest
