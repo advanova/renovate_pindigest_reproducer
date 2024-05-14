@@ -7,3 +7,9 @@
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "2004"
         DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2004
+      - DISTRIBUTION_NAME: ubuntu
+        DISTRIBUTION_VERSION: "latest"
+        DISTRIBUTION_BASE_IMAGE: ubuntu:latest
+      - DISTRIBUTION_NAME: ubuntu
+        DISTRIBUTION_VERSION: "bionic"
+        DISTRIBUTION_BASE_IMAGE: ubuntu:bionic
