@@ -18,11 +18,12 @@
     },
   ],
   "packageRules": [
-  {
-    "description": "Do not pin ubuntu packages",
-    "matchPackagePatterns": [
-      ".*ubuntu.*"
-    ],
-    "pinDigests": false
-  }
+    {
+      "description": "Do not pin ubuntu packages",
+      "matchPackagePatterns": [
+        ".*ubuntu.*"
+      ],
+      "pinDigests": false
+    }
+  ]
 }
