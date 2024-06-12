@@ -3,7 +3,7 @@
     matrix:
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "1809"
-        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809@sha256:74eaea56489463506944b510365cc4d6723d6c5e4baab7906a1f635a4ceae729
+        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809@sha256:80ab57b3a9a8d1077d986f6203ff044927bdc1d1294648171a073a6d44f9e628
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "1809"
         DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809
