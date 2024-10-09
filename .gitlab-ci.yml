@@ -6,10 +6,10 @@
         DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809@sha256:74eaea56489463506944b510365cc4d6723d6c5e4baab7906a1f635a4ceae729
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "1809"
-        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809
+        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:1809@sha256:1d916b25186f5aeea9dcc0974112c4da6c3a4eb483ebd548cbdc5b6eccf3246c
       - DISTRIBUTION_NAME: windows
         DISTRIBUTION_VERSION: "2004"
-        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2004
+        DISTRIBUTION_BASE_IMAGE: mcr.microsoft.com/windows:2004@sha256:b01e1bcbd7927d951b1df589118ce29167c36234c8d8671ba88e6da5d34d4b96
       - DISTRIBUTION_NAME: ubuntu
         DISTRIBUTION_VERSION: "latest"
         DISTRIBUTION_BASE_IMAGE: ubuntu:latest
