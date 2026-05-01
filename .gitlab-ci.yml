@@ -15,4 +15,4 @@
         DISTRIBUTION_BASE_IMAGE: ubuntu:latest
       - DISTRIBUTION_NAME: ubuntu
         DISTRIBUTION_VERSION: "bionic"
-        DISTRIBUTION_BASE_IMAGE: ubuntu:bionic
+        DISTRIBUTION_BASE_IMAGE: ubuntu:resolute
